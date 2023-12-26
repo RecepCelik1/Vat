@@ -1,12 +1,13 @@
-Vat Calculator projesini ayağa kaldırmak için şu adımları takip edin ;
+To set up the Vat Calculator project, follow these steps:
 
-# bir dosya oluşturup vs code ile açın terminale npx create-react-app . komutlarını girerek bir react app oluşturun
-# src dosyasını benim repostory'im içerisinde bulunan src dosyası ile değiştirin
-# terminale dönün ve sırasıyla 
+# Create a new file, open it with VS Code, and in the terminal, run the command npx create-react-app . to create a React app.
+# Replace the 'src' folder with the 'src' folder from my repository.
+# Return to the terminal and run the following commands sequentially:
+  
   npm install -D tailwindcss
   npx tailwindcss init
-komutlarını girin
-# tailwind.config.js dosyası içerisindeki kodları aşağıdakiler ile değiştirin ;
+
+# Replace the code in the 'tailwind.config.js' file with the following:
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -16,7 +17,13 @@ module.exports = {
   },
   plugins: [],
 }
-# son olarak terminale aşağıdaki komutu girin
+
+# Finally, run the following command in the terminal ;
+
 npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch
-ve terminali kapatın
-# yeni bir terminal açın ve npm start diyerek projeyi ayağa kaldırın
+
+and then close the terminal.
+
+# Open a new terminal and start the project by running:
+
+npm start
