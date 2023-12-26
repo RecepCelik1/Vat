@@ -1,6 +1,6 @@
 To set up the Vat Calculator project, follow these steps:
 
-# Create a new file, open it with VS Code, and in the terminal, run the command npx create-react-app . to create a React app.
+# Create a new file, open it with VS Code, and in the terminal, run the command "npx create-react-app ." to create a React app.
 # Replace the 'src' folder with the 'src' folder from my repository.
 # Return to the terminal and run the following commands sequentially:
   
