@@ -46,7 +46,7 @@ const App = () => {
   console.log(`amountOfVAT = ${amountOfVAT}, netAmount = ${netAmount}`);
 
   return (
-    <div className='relative w-[455.2px] h-[542.8px] flex flex-col items-center rounded-[30px] shadow-2xl'>
+    <div className='relative w-[440px] h-[544px] flex flex-col items-center rounded-[30px] shadow-2xl'>
       <div className="absolute top-0 left-0 w-full h-full bg-cover bg-center rounded-[31.5px] bg-sky-600"></div>
 
 
